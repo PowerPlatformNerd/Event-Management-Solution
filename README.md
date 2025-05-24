@@ -13,14 +13,24 @@ The **Event Management App** is a **Power Platform** model-driven solution that 
 ## Prerequisites  
 - 🔹 **Power Platform environment** (Dataverse enabled).  
 - 🔹 **Power Apps license** with table creation and app development permissions.  
-- 🔹 *(Optional)* Power Automate for workflow automation.  
+- 🔹 *(Optional)* Power Automate for workflow automation.
+  
+## 🧩 App Components
+
+| Component                 | Description                                                                 |
+|--------------------------|-----------------------------------------------------------------------------|
+| **Event Table**           | Stores event-specific data: name, date, location, capacity, and status.     |
+| **Registration Table**    | Captures attendee details linked to events through a lookup field.          |
+| **Business Process Flow** | Guides users through event stages: Planning → Open → Closed.                |
+| **Model-Driven App**      | Includes navigation, views, forms, and automation tailored for event ops.   |
+| **Forms & Views**         | Custom views and forms for easy data entry and management.                  |
 
 ## Installation  
 
 ### 1️⃣ Download Unmanaged Solution  
 ```sh
 EventManagementAppSolution_1_0_0_0.zip
-
+```
 ### 🔄 Import the Solution into Power Platform  
 
 1. Open [Power Apps](https://make.powerapps.com).  
@@ -34,14 +44,4 @@ EventManagementAppSolution_1_0_0_0.zip
 
 5. Click **Next** and follow the import prompts.  
 6. Once completed, open the **Event Management App** from your solutions list.
-
-### 🧩 App Components  
-
-| Component                 | Description                                                                 |
-|--------------------------|-----------------------------------------------------------------------------|
-| **Event Table**           | Stores event-specific data: name, date, location, capacity, and status.     |
-| **Registration Table**    | Captures attendee details linked to events through a lookup field.          |
-| **Business Process Flow** | Guides users through event stages: Planning → Open → Closed.                |
-| **Model-Driven App**      | Includes navigation, views, forms, and automation tailored for event ops.   |
-| **Forms & Views**         | Custom views and forms for easy data entry and management.                  |
 
