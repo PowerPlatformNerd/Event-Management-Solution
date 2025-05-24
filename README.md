@@ -45,3 +45,4 @@ EventManagementAppSolution_1_0_0_0.zip
 5. Click **Next** and follow the import prompts.  
 6. Once completed, open the **Event Management App** from your solutions list.
 
+![image](https://github.com/user-attachments/assets/fa70850d-f477-4061-bea7-b5c0f363c4e8)
