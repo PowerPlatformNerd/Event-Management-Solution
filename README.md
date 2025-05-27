@@ -29,7 +29,7 @@ The **Event Management App** is a **Power Platform** model-driven solution that 
 
 ### 1️⃣ Download Unmanaged Solution  
 ```sh
-EventManagementSolution_1_0_0_0.zip
+EventManagementSolution_1_0_0_2.zip
 ```
 ### 🔄 Import the Solution into Power Platform  
 
@@ -39,7 +39,7 @@ EventManagementSolution_1_0_0_0.zip
 4. Select the downloaded file:
 
     ```sh
-    EventManagementSolution_1_0_0_0.zip
+    EventManagementSolution_1_0_0_2.zip
     ```
 
 5. Click **Next** and follow the import prompts.  
